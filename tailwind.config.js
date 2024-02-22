@@ -7,11 +7,28 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      
+    
+        backgroundImage: {
+          'dora': "url('/images/dora.png')", 
+          'radial-gradient': "radial-gradient(40.40% 40.55% at 94.76% 6.29%, rgba(43, 179, 42, 0.10) 0%, rgba(43, 179, 42, 0.06) 100%)",
+        },
+        fontFamily:{
+     
+
+          'M PLUS 1': ['M Plus 1', 'sans-serif'],
+    
+          
+              },
+       
+      colors:{
+        'blackbg':"#1c1c1c",
+        'green':"#2BB32A",
+        'gray':"#ADB2B1",
+        'gray1':"#B9BEBD"
       },
+     
+     
     },
   },
   plugins: [],
