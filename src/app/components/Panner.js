@@ -62,7 +62,7 @@ const Panner = () => {
         </div>
       </div>
 
-      <div className="bg-green w-[542px] h-[532px] rounded-full relative left-[240px] ">
+      <div className="bg-green w-[542px] h-[532px] rounded-full relative left-[170px] ">
         <div className="w-[551px] h-[349px] rotate-[15deg] relative left-[-260px] top-[50px] border-[2px] backdrop-blur-xl bg-white/25     border-gray  rounded-[18px]  shadow  drop-shadow-md ">
           <div className=" w-[461px] h-[274px mt-[39px] mx-[37px] absloute bg-transparent">
            <div className=" flex  justify-between">
