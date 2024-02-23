@@ -27,6 +27,7 @@ module.exports = {
         'gray':"#ADB2B1",
         'gray1':"#B9BEBD",
         'gray2':"#3D544D",
+        
       },
      
      

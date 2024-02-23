@@ -1,4 +1,6 @@
 import React from "react";
+import Section from "./Section";
+import { feature } from "../constants";
 
 const Feature = () => {
   return (
@@ -7,6 +9,16 @@ const Feature = () => {
         {" "}
         What do we offer?{" "}
       </h1>
+      <div className='flex flex-row justify-between  w-[1360px] h-[186px] ml-[115px] relative top-[-400px]  '>
+        {feature.map((data, index) => (
+          <Section
+            key={index}
+            image={data.image}
+            title={data.title}
+            text={data.text}
+          />
+        ))}
+      </div>
     </div>
   );
 };
