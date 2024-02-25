@@ -17,6 +17,7 @@ module.exports = {
      
 
           'M PLUS 1': ['M Plus 1', 'sans-serif'],
+          'popins':['popins','sans-serif'],
     
           
               },
@@ -27,7 +28,8 @@ module.exports = {
         'gray':"#ADB2B1",
         'gray1':"#B9BEBD",
         'gray2':"#3D544D",
-        
+        'gray3':"#EDEDED",
+        'gray4':"#424242",
       },
      
      

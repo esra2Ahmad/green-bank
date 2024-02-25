@@ -5,11 +5,11 @@ import { feature } from "../constants";
 const Feature = () => {
   return (
     <div>
-      <h1 className=" font-M PLUS 1 font-bold text-[40px]  text-white text-center top-[-430px] relative">
+      <h1 className=" font-M PLUS 1 font-bold text-[40px]  text-white text-center top-[-470px] relative">
         {" "}
         What do we offer?{" "}
       </h1>
-      <div className='flex flex-row justify-between  w-[1360px] h-[186px] ml-[115px] relative top-[-400px]  '>
+      <div className='flex flex-row justify-between  w-[1350px] h-[186px] ml-[115px] relative top-[-400px]  '>
         {feature.map((data, index) => (
           <Section
             key={index}

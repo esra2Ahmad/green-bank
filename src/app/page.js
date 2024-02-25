@@ -5,6 +5,7 @@ import "./globals.css";
 import About from "./components/About";
 import LogoSlider from "./components/LogoSlider";
 import Feature from "./components/Feature";
+import CreditCard from "./components/CreditCard";
 
 
 const page = () => {
@@ -18,7 +19,7 @@ const page = () => {
         <About/>
         <LogoSlider/>
         <Feature/>
-        
+        <CreditCard/>
       </div>
       
     </div>

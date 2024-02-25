@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const LogoSlider = () => {
   return (
-    <div className='flex justify-between w-[1250px] ml-[120px] relative top-[-550px] '>
+    <div className='flex justify-between w-[1250px] ml-[120px] relative top-[-600px] '>
         <Image  alt="upwork"src="/images/upwork.png" width={105} height={32}/>
         <Image  alt="upwork"src="/images/petal.png" width={105} height={32}/>
         <Image  alt="upwork"src="/images/rakuten.png" width={105} height={32}/>
