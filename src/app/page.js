@@ -6,6 +6,7 @@ import About from "./components/About";
 import LogoSlider from "./components/LogoSlider";
 import Feature from "./components/Feature";
 import CreditCard from "./components/CreditCard";
+import Find from "./components/Find";
 
 
 const page = () => {
@@ -20,6 +21,7 @@ const page = () => {
         <LogoSlider/>
         <Feature/>
         <CreditCard/>
+        <Find/>
       </div>
       
     </div>
