@@ -7,6 +7,7 @@ import LogoSlider from "./components/LogoSlider";
 import Feature from "./components/Feature";
 import CreditCard from "./components/CreditCard";
 import Find from "./components/Find";
+import Testimonial from "./components/Testimonial";
 
 
 const page = () => {
@@ -22,6 +23,7 @@ const page = () => {
         <Feature/>
         <CreditCard/>
         <Find/>
+        <Testimonial/>
       </div>
       
     </div>

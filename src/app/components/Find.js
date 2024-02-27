@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Find = () => {
   return (
-    <div className=" w-[1240px] h-[500px] ml-[145px] relative top-[-250px] rotate-[-25px] flex items-center">
+    <div className=" w-[1240px] h-[500px] ml-[145px] relative top-[-450px] rotate-[-25px] flex items-center">
       <div className="flex flex-col">
         <div className="w-[422px] h-[234px]  skew-x-[5deg]  border-[3px] z-20  backdrop-blur bg-gray/20  border-gray rounded-[32px]  mr-[100px] relative top-[10px]  ">
           <div className=" w-[331px] h-[104]px mt-[19px] mx-[37px] absloute bg-transparent">
@@ -55,7 +55,7 @@ const Find = () => {
             </div>
           </div>
         </div>
-        <div className="w-[435px] h-[234px]  skew-x-[20deg]  rotate-[10deg]    bg-green     rounded-[32px]  relative top-[-30px] ml-[-5px] z-10 ">
+        <div className="w-[435px] h-[224px]  skew-x-[20deg]  rotate-[10deg]    bg-green     rounded-[32px]  relative top-[-30px] ml-[-5px] z-10 ">
           <div className=" w-[350px] h-[214]px mt-[19px] mx-[37px] absloute bg-transparent">
             <div className=" flex  w-[360px] justify-between">
               <div>

@@ -4,7 +4,7 @@ import { GoArrowRight } from "react-icons/go";
 
 const CreditCard = () => {
   return (
-    <div className="w-[1350px] h-[519px]  relative top-[-320px] ml-[110px] flex justify-between">
+    <div className="w-[1350px] h-[519px]  relative top-[-520px] ml-[110px] flex justify-between">
       <div className="w-[604px] h-[292px] ">
         <h1 className="text-white font-bold font-M PLUS 1 text-[40px] pt-[115px]">
           Design your personalized

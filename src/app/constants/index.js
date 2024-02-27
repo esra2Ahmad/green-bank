@@ -37,3 +37,22 @@ export const about = [
     },
   
   ]
+  export const testimonial = [
+    {
+      text:'Great session! Dani was super helpful. She shared some practical advice on how can lorem ip we go about refining our service offerings."',
+      name:'Hadid Khan',
+      work:'UIUX Designer',
+      image:'/images/Ellipse.png'
+    },
+  {
+    text:"It's is both attractive and highly adaptable. It's exactly what I've been looking forefinitely wo lorem ipsum dolorth the investment.",
+    name:'Wade Warren',
+    work:'Web Designer',
+    image:'/images/Ellipse(1).png'
+  },
+{
+  text:"I am really satisfied with it. I'm good to go. It really saves me time and effort. It's is exactly what our business has been lacking. ",
+  name:'Jenny Wilson',
+  work:'Trust Administrator',
+  image:'/images/Ellipse(2).png',
+},]

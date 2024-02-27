@@ -17,7 +17,7 @@ module.exports = {
      
 
           'M PLUS 1': ['M Plus 1', 'sans-serif'],
-          'popins':['popins','sans-serif'],
+          'poppins':['poppins','sans-serif'],
     
           
               },
