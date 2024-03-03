@@ -10,10 +10,11 @@ import Find from "./components/Find";
 import Testimonial from "./components/Testimonial";
 import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 const page = () => {
   return (
-    <div className=" h-[5117px] w-[1530px] bg-blackbg  overflow-hidden ">
+    <div className=" h-[5070px] w-[1530px] bg-blackbg  overflow-hidden ">
       <div className=" w-[1440px] h-[5080px] relative  bg-[url('/images/dora(1).svg')]  ">
         <Navbar/>
         <div className="w-[992px] h-[992px] rounded-full  blur-[5000px] bg-green  opacity-15  relative top-[-726px] left-[436px] ">
@@ -26,8 +27,10 @@ const page = () => {
         <Find/>
         <Testimonial/>
         <FAQ/>
-        <div className="w-[892px] h-[892px] rounded-full  blur-[5000px] bg-green  opacity-25  relative top-[-626px] left-[-140px] rotate-90 "></div>
+        <div className="w-[892px] h-[892px] rounded-full  blur-[5000px] bg-green  opacity-25  relative top-[-526px] left-[-140px] rotate-90 "></div>
        <CTA/>
+       <Footer/>
+       <div className="w-[892px] h-[1092px] rounded-full  blur-[5000px] bg-green  opacity-15  relative top-[-1026px] left-[940px] rotate-90 "></div>
       </div>
       
     </div>

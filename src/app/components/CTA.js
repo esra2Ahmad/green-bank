@@ -18,7 +18,7 @@ const CTA = () => {
         </div>
         </div>
         <div>
-            <Image alt="mobile" width={604}  height={850} src="/images/image 108.png"/>
+            <Image alt="mobile" width={604}  height={850} src="/images/image 108.png" className=' ml-36'/>
         </div>
     </div>
   )
