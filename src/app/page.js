@@ -8,7 +8,8 @@ import Feature from "./components/Feature";
 import CreditCard from "./components/CreditCard";
 import Find from "./components/Find";
 import Testimonial from "./components/Testimonial";
-
+import FAQ from "./components/FAQ";
+import CTA from "./components/CTA";
 
 const page = () => {
   return (
@@ -24,6 +25,9 @@ const page = () => {
         <CreditCard/>
         <Find/>
         <Testimonial/>
+        <FAQ/>
+        <div className="w-[892px] h-[892px] rounded-full  blur-[5000px] bg-green  opacity-25  relative top-[-626px] left-[-140px] rotate-90 "></div>
+       <CTA/>
       </div>
       
     </div>
