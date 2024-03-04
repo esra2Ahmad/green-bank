@@ -28,15 +28,18 @@ const page = () => {
         <About/>
         <LogoSlider/>
         <Feature/>
+        
         <CreditCard/>
         <Find/>
         <Testimonial/>
+        
         <FAQ/>
         <div className="w-[892px] h-[892px] rounded-full  blur-[5000px] bg-green  opacity-25  relative top-[-526px] left-[-140px] rotate-90 "></div>
        <CTA/>
        <Footer/>
-       <div className="w-[892px] h-[1092px] rounded-full  blur-[5000px] bg-green  opacity-15  relative top-[-1026px] left-[940px] rotate-90 "></div>
+       <div className="w-[892px] h-[1492px] rounded-full  blur-[5000px] bg-green  opacity-15  relative top-[-1226px] left-[940px]  "></div>
       </div>
+      <div className="w-[892px] h-[992px] rounded-full  blur-[5000px] bg-green  opacity-15  relative top-[-3526px] left-[940px]  "></div>
       
     </div>
   );

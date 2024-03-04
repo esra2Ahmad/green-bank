@@ -20,10 +20,10 @@ const CTA = () => {
         <div>
             <Image alt="mobile" width={604}  height={850} src="/images/image 108.png" className=' ml-36'/>
         </div>
-        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-8 h-8 relative top-[334px] left-[-70px]"/>
+        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-8 h-8 relative top-[324px] left-[-780px]"/>
     <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-3 h-3 relative top-[510px] left-[-20px]"/>
     <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-7 h-7 relative top-[284px] left-[-800px]"/>
-    <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-2 h-2 relative top-[-264px] left-[1280px]"/>
+    <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-2 h-2 relative top-[-324px] left-[480px]"/>
     </div>
   )
 }
