@@ -11,14 +11,19 @@ import Testimonial from "./components/Testimonial";
 import FAQ from "./components/FAQ";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
+import Image from "next/image";
+import Star from "./components/Star";
 
 const page = () => {
   return (
-    <div className=" h-[5070px] w-[1530px] bg-blackbg  overflow-hidden ">
+    <div className=" h-[5170px] w-[1530px] bg-blackbg  overflow-hidden ">
       <div className=" w-[1440px] h-[5080px] relative  bg-[url('/images/dora(1).svg')]  ">
+        
         <Navbar/>
+        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-6 h-6 ml-[1080px] relative top-[60px]"/>
         <div className="w-[992px] h-[992px] rounded-full  blur-[5000px] bg-green  opacity-15  relative top-[-726px] left-[436px] ">
         </div>
+        
         <Panner/>
         <About/>
         <LogoSlider/>

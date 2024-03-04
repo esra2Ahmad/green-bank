@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const CTA = () => {
   return (
-    <div className='w-[1240px] h-[472px] flex justify-between items-center  relative top-[-764px] ml-[105px]'>
+    <div className='w-[1240px] h-[472px] flex justify-between items-center  relative top-[-664px] ml-[105px]'>
         <div className='w-[605px] h-[252px]'>
             <h1 className='font-bold font-poppins text-[48px] text-white tracking-wide'>Easy Way to manage<br/> your finances</h1>
             <p className=' font-M PLUS 1 text-gray  text-[18px] mt-[12px]'>Easy to use mobile app that support on android and ios.</p>
@@ -20,6 +20,10 @@ const CTA = () => {
         <div>
             <Image alt="mobile" width={604}  height={850} src="/images/image 108.png" className=' ml-36'/>
         </div>
+        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-8 h-8 relative top-[334px] left-[-70px]"/>
+    <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-3 h-3 relative top-[510px] left-[-20px]"/>
+    <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-7 h-7 relative top-[284px] left-[-800px]"/>
+    <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-2 h-2 relative top-[-264px] left-[1280px]"/>
     </div>
   )
 }

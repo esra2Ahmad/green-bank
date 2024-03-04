@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className=" w-[1530px] h-[371px]  bg-gray2/5  rounded-[18px] relative top-[-760px]  backdrop-blur   ">
+    <div className=" w-[1530px] h-[371px]  bg-gray2/5  rounded-[18px] relative top-[-660px]  backdrop-blur   ">
       <div className="flex  gap-[150px]">
       <div>
       <div className="flex gap-[8px] ml-[105px] pt-[68px]">
@@ -49,13 +49,14 @@ const Footer = () => {
         </div>
 
     </div>
+    
     </div>
-    <div className=" flex justify-between  pt-20
-    \ mx-[115px]">
+    
+    <div className=" flex justify-between  pt-[50px] mx-[115px]">
         <p className="font-normal font-poppins text-[12px] text-gray">copyright 2023 DoraDesign All Rights Reserved</p>
         <p className="font-normal font-poppins text-[12px] text-gray">This page uses cookies. See cookies details here </p>
     </div>
-   
+  
     </div>
   );
 };

@@ -1,9 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import { GoArrowRight } from "react-icons/go";
+import Star from "./Star";
 
 const Panner = () => {
   return (
+
     <div className="flex  justify-between relative top-[-850px] ml-[100px]">
       <div>
         <h1 className=" font-M PLUS 1 font-bold text-[56px] text-white  ">
@@ -29,7 +31,9 @@ const Panner = () => {
           </p>
           <GoArrowRight className=" text-[25px] text-white" />
         </div>
+        
         <div className="flex justify-between w-[313px]">
+          
           <div className="flex mt-8">
         <Image
           src="/images/Ellipse.png"
@@ -59,7 +63,11 @@ const Panner = () => {
           </h3>
           <p className=" text-[12px] font-normal font-M PLUS 1 text-gray ">Active useres around the world</p>
         </div>
+      
         </div>
+        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-8 h-8  relative top-[-100px] left-[400px]"/>
+        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-5 h-5  relative top-[150px] left-[90px]"/>
+        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-6 h-6 relative top-[100px] left-[1000px]"/>
       </div>
 
       <div className="bg-green w-[542px] h-[532px] rounded-full relative left-[170px] ">
@@ -113,6 +121,7 @@ const Panner = () => {
         </div>
       </div>
     </div>
+  
   );
 };
 

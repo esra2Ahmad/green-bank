@@ -28,7 +28,9 @@ const Navbar = () => {
         <button className=" w-[108px] h-[38px] rounded-[25px] text-[16px] border-green text-green font-M PLUS 1 font-bold border-[2px] ">
         contact 
         </button>
-        </div>
+        
+       </div>
+       
     </div>
   );
 };

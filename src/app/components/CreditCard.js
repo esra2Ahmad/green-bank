@@ -4,7 +4,7 @@ import { GoArrowRight } from "react-icons/go";
 
 const CreditCard = () => {
   return (
-    <div className="w-[1350px] h-[519px]  relative top-[-520px] ml-[110px] flex justify-between">
+    <div className="w-[1350px] h-[519px]  relative top-[-420px] ml-[110px] flex justify-between">
       <div className="w-[604px] h-[292px] ">
         <h1 className="text-white font-bold font-M PLUS 1 text-[40px] pt-[115px]">
           Design your personalized
@@ -19,6 +19,9 @@ const CreditCard = () => {
           create new card
           <GoArrowRight className=" text-[20px] text-white" />
         </button>
+        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-7 h-7 relative top-[-290px] left-[1260px] -rotate-[25deg]"/>
+        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-4 h-4 relative top-[-250px] left-[420px] -rotate-[25deg]"/>
+
       </div>
       <Image src="/images/Star 17.png" alt="star"  width={100} height={50}    className="w-[300px] h-[300px] mt-[200px]  mr-[-75px] z-50" />
       <div className=" flex flex-col h-[1000px] z-10">
@@ -118,7 +121,7 @@ const CreditCard = () => {
            </div>
           </div>
         </div>
-        <div className="w-[435px] h-[254px]  -skew-x-[30deg]     bg-white     rounded-[32px]  relative top-[-320px]  mr-[150px]  ">
+        <div className="w-[435px] h-[254px]  -skew-x-[30deg]     bg-white     rounded-[32px]  relative top-[-280px]  mr-[150px]  ">
         <div className=" w-[360px] h-[214]px mt-[19px] mx-[37px] absloute bg-transparent">
            <div className=" flex  justify-between">
             <div>
@@ -141,13 +144,13 @@ const CreditCard = () => {
             </div>
            </div>
            <p className="mt-[4px] text-[14px]  font-M PLUS 1 font-semibold text-gray1">Credit Card No.</p>
-           <div className="mt-4 flex justify-between w-[282px] text-[22px] text-white font-M PLUS 1 font-bold">
+           <div className="mt-8 flex justify-between w-[282px] text-[22px] text-black font-M PLUS 1 font-bold">
             <p>1602</p>
             <p>0911</p>
             <p>2019</p>
             <p>2021</p>
            </div>
-           <div className="mt-6 flex justify-between w-[142px] text-[14px] text-gray1 font-M PLUS 1 font-semibold">
+           <div className="mt-6 flex justify-between w-[142px] text-[14px] text-gray1 font-M PLUS 1 ">
             <p>Name</p>
             <p>Exp.</p> 
            </div>

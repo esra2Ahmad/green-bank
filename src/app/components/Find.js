@@ -3,7 +3,9 @@ import Image from "next/image";
 
 const Find = () => {
   return (
-    <div className=" w-[1240px] h-[500px] ml-[145px] relative top-[-450px] rotate-[-25px] flex items-center">
+    <div className=" w-[1240px] h-[500px] ml-[145px] relative top-[-350px] rotate-[-25px] flex items-center">
+              <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-8 h-8 relative top-[-410px] left-[-10px] rotate-[25deg]"/>
+              <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-8 h-8 relative top-[-310px] left-[938px]   -rotate-[25deg]"/>
       <div className="flex flex-col">
         <div className="w-[422px] h-[234px]  skew-x-[5deg]  border-[3px] z-20  backdrop-blur bg-gray/20  border-gray rounded-[32px]  mr-[100px] relative top-[10px]  ">
           <div className=" w-[331px] h-[104]px mt-[19px] mx-[37px] absloute bg-transparent">
@@ -119,6 +121,8 @@ const Find = () => {
         <button className=" w-[133px] h-[48px] rounded-[25px] text-[16px] font-medium mt-[20px] flex gap-4 items-center justify-center border-green bg-green text-white font-M PLUS 1  border-[2px]  ">
           Learn More
         </button>
+        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-4 h-4 relative top-[-130px] left-[58px]   -rotate-[25deg]"/>
+        <Image src="/images/dora(1).png" width={10} height={10} alt="star" className=" w-4 h-4 relative top-[300px] left-[-558px]   -rotate-[25deg]"/>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const TestimlionCard = (props) => {
   return (
-    <div className='w-[372px] h-[360px] bg-gray2/5  rounded-[18px] relative top-[-290px]  backdrop-blur flex flex-col'>
+    <div className='w-[372px] h-[360px] bg-gray2/5  rounded-[18px] relative top-[-170px]  backdrop-blur flex flex-col'>
         <div className=' w-[56px] h-[56px]  rounded-[56px] bg-gray2 mt-[48px] ml-[24px]'>
             <Image src='/images/Frame.png' width={10} height={10} alt='comma' className='w-[24px] h-[24px] mt-[15px] ml-[15px]'/>
         </div>
