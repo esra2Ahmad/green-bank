@@ -56,3 +56,37 @@ export const about = [
   work:'Trust Administrator',
   image:'/images/Ellipse(2).png',
 },]
+
+export const faqs = [
+  {
+  question:" What credit score do I need to apply for a credit card?",
+  answer: " The required credit score may vary depending on the specific creditcard. Generally, a good to excellent credit score( typically 670 or above) increases your chances of approval for premium creditcards.",
+  
+  },
+  {
+    question:" How can I apply for a credit card online?",
+    answer: " The required credit score may vary depending on the specific creditcard. Generally, a good to excellent credit score( typically 670 or above) increases your chances of approval for premium creditcards.",
+    
+    },
+    {
+      question:" Are there any annual fees associated with the credit card?",
+      answer: " The required credit score may vary depending on the specific creditcard. Generally, a good to excellent credit score( typically 670 or above) increases your chances of approval for premium creditcards.",
+      
+      },
+      {
+        question:" How long does it take to receive the credit card once approved?",
+        answer: " The required credit score may vary depending on the specific creditcard. Generally, a good to excellent credit score( typically 670 or above) increases your chances of approval for premium creditcards.",
+        
+        },
+        {
+          question:" What should I do if my credit card is lost or stolen?",
+          answer: " The required credit score may vary depending on the specific creditcard. Generally, a good to excellent credit score( typically 670 or above) increases your chances of approval for premium creditcards.",
+          
+          },
+          {
+            question:" Is my credit card information secure?",
+            answer: " The required credit score may vary depending on the specific creditcard. Generally, a good to excellent credit score( typically 670 or above) increases your chances of approval for premium creditcards.",
+            
+            },
+
+]

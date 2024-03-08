@@ -16,13 +16,15 @@ const Navbar = () => {
         
       <p className="text-white font-M PLUS 1 font-bold  text-[20px]">GreenBank</p>
       </div>
-      <div className=" flex justify-between gap-11">
+      <div className=" flex justify-between gap-11 font-M PLUS 1 text-white text-[16px] font-medium list-none">
+        <li><Link href="abouta">why us</Link></li>
+        <li><Link href="#">services</Link></li>
+        <li><Link href="abouta">Our process</Link></li>
+        <li><Link href="abouta">Payement</Link></li>
+        <li><Link href="abouta">FAQS</Link></li>
        
-          <Link href="/#" className="  font-M PLUS 1 text-white text-[16px] font-medium"> why us </Link>
-          <Link href="/#" className="font-M PLUS 1 text-white text-[16px] font-medium "> Services </Link>
-          <Link href="/#" className=" font-M PLUS 1 text-white text-[16px] font-medium "> Our process </Link>
-          <Link href="/#" className=" font-M PLUS 1 text-white text-[16px] font-medium "> Payement </Link>
-          <Link href="/#" className=" font-M PLUS 1 text-white text-[16px] font-medium"> FAQS</Link>
+
+     
         </div>
         <div>
         <button className=" w-[108px] h-[38px] rounded-[25px] text-[16px] border-green text-green font-M PLUS 1 font-bold border-[2px] ">
